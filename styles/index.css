@@ -96,8 +96,9 @@ footer ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  width: 70%;
-  margin-left: auto;
+  width: 55%;
+  margin-left: 30%;
+  margin-right: auto;
 }
 
 footer {
@@ -145,18 +146,22 @@ footer {
   .skillBox img {
     max-width: 150px;
   }
+
   footer ul {
-    width: 100%;
+    width: 80%;
     justify-content: space-around;
+    margin-right: 15%;
   }
+
   footer {
     margin: 0;
   }
 }
 
 .my_skills_footer ul {
-  width: 100%;
-  justify-content: space-around;
+  width: 65%;
+
+  margin-left: 20%;
 }
 .projects h1 {
   text-align: center;
