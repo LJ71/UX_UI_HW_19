@@ -60,7 +60,7 @@ nav a {
   background-color: #021373;
   color: white;
   border: 0;
-  width: 150px;
+  padding: 0 10px;
   height: 55px;
   font-family: playfair;
   font-size: 20px;
@@ -191,6 +191,11 @@ footer {
     row-gap: 30px;
   }
 }
+@media only screen and (min-width: 650px) {
+  nav a {
+    width: 150px;
+  }
+}
 @media only screen and (max-width: 699px) {
   .projectsContainer {
     grid-template-columns: 1fr;
@@ -294,4 +299,10 @@ form button:hover {
   opacity: 0.4;
   display: none;
   z-index: 2;
+}
+.message {
+  display: none;
+  text-align: center;
+  margin-top: 0;
+  font-size: 20px;
 }
